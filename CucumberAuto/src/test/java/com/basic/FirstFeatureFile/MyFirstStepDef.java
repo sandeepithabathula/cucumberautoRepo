@@ -20,6 +20,7 @@ public class MyFirstStepDef {
 		d = new ChromeDriver();
 		d.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		d.get("https://www.facebook.com/");
+		System.out.println("url started");
 	}
 	
 	@When("^User need to enter first name$")
